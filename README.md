@@ -46,4 +46,5 @@ graph LR
 
 
 ## References
+- [Topological Sorting with Kahn's Algorithm](https://github.com/NelsonBN/algorithms-data-structures-kahn)
 - [Other Algorithms & Data Structures](https://github.com/NelsonBN/algorithms-data-structures)
