@@ -41,8 +41,8 @@ def topological_sort_dfs(graph):
 
     # Call DFS for each unvisited vertex
     for vertex in state:
-        if state[vertex] == NOT_VISITED:
-            dfs(vertex)
+        dfs(vertex)
+
 
     # Reverse the list to get the correct topological order
     return result[::-1]
