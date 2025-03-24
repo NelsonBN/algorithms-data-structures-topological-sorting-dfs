@@ -29,4 +29,4 @@ graph = {
     5: [2, 0]
 }
 
-print(f'Topological Sort: {topological_sort(graph)}')
+print(f'Topological Sorting: {topological_sort(graph)}')

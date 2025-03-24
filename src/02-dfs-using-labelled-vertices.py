@@ -68,4 +68,4 @@ cycle = {
 graph = dag
 
 
-print(f'Topological Sort: {topological_sort_dfs(graph)}')
+print(f'Topological Sorting: {topological_sort_dfs(graph)}')
