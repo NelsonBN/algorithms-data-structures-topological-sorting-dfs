@@ -48,7 +48,7 @@ def topological_sort_dfs(graph):
     return result[::-1]
 
 
-graph = {
+dag = {
     'A': ['B'],
     'B': ['C', 'D'],
     'C': ['E'],
@@ -56,6 +56,16 @@ graph = {
     'E': ['G'],
     'F': ['G']
 }
+
+cycle = {
+    'A': ['B'],
+    'B': ['C'],
+    'C': ['A'],
+    'D': ['B', 'C'],
+    'E': ['C', 'D']
+}
+
+graph = dag
 
 
 print(f'Topological Sort: {topological_sort_dfs(graph)}')
